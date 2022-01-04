@@ -1,0 +1,43 @@
+body {
+  background-color: #f7f7f7;
+}
+
+.center,
+.game-status {
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(53, 53, 53);
+  font-size: 45px;
+}
+
+.center {
+  font-size: 4em;
+}
+
+.sign {
+  width: 250px;
+  cursor: pointer;
+  margin: 12px 24px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  padding: 16px 36px;
+  font-size: 20px;
+  background-color: dodgerblue;
+  border: 1px solid rgb(53, 53, 53);
+  border-radius: 12px;
+  visibility: hidden;
+}
